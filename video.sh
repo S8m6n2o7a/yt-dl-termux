@@ -2,7 +2,7 @@
 
 
 cd $HOME
-cd Downloads
+cd storage/downloads
 echo "Welcome to youtube video downloader"
 echo -e "enter youtube \e[0;31mlink\e[0m 👇"
 read link
