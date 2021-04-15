@@ -4,9 +4,9 @@
 
 cd $HOME
 cd storage/downloads
-echo "Welcome to youtube mp3 downloader"
-echo -e "enter youtube \e[0;31mlink\e[0m 👇"
+figlet -f slant "Welcome to youtube video downloader"
+toilet -f term -F border --gay "Enter youtube link 👇"
 read link
 youtube-dl --extract-audio --audio-format mp3 $link
-echo -e "Your song in \e[0;35m downloads\e[0m folder"
-echo -e "\e[0;31mThank\e[0m\e[1;33m you\e[0m \e[0;32mfor\e[0m \e[0;31musing\e[0m \e[0;34myt\e[0m \e[0;35mdownloader\e[0m"
+toilet -f term -F border --gay "Your video in downloader folder"
+toilet -f term -F border --gay "Thankyou for using yt downloader"
