@@ -2,13 +2,7 @@
 
 import subprocess
 
-print('''	 +-+-+-+-+-+-+-+-+-+-+ +-+-+ +-+-+-+-+-+-+
-   		 |Y|t|D|o|w|n|l|o|d|e|r| |F|o|r |L|i|n|u|x|
-   		 +-+-+-+-+-+-+-+-+-+-+ +-+-+ +-+-+-+-+-+-+
-           		 +-+-+ +-+-+-+-+-+-+-+-+-+
-          	         |b|y| |S|8|m|6|n|2|o|7|a|
-           		 +-+-+ +-+-+-+-+-+-+-+-+-+
-''')
+subprocess.run('figlet -f slant "Yt Video/Music Downloder For Linux by S8m6n2o7a"', shell=True)
 
 choice = input("what you want to download video or music v/m:   ")
 lchoice = str.lower(choice)
